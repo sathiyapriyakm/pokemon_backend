@@ -49,6 +49,7 @@ server.listen(PORT,async ()=>{
   }catch(er){
     console.error(er);
   }
+ 
 })
 
 
@@ -83,6 +84,7 @@ io.on("connection",(socket)=>{
       console.error(ex);
     }
   })
+  
   socket.on("select",async (player,pokemon)=>{
     try{
       if(player==1){
