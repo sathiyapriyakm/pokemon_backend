@@ -1,0 +1,54 @@
+const Battle = {
+    "_id": "dasdasdaeewqewewewweew",
+    "playerOne": {
+        "pokemon": {
+            "_id": "pokemon_001",
+            "name": "Bulbasaur",
+            "image": "https://raw.githubusercontent.com/pokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+            "hp": 100,
+            "pp": 10,
+            "moves": [
+                {
+                    "name": "Vine Whip",
+                    "damage": 15,
+                    "pp": 2
+                },
+                {
+                    "name": "Tackle",
+                    "damage": 10,
+                    "pp": 1
+                },
+                {
+                    "name": "Rest",
+                    "damage": 0,
+                    "pp": -3
+                }
+            ]
+        }    },
+    "playerTwo": {
+        "pokemon": {
+            "_id": "pokemon_001",
+            "name": "Bulbasaur",
+            "image": "https://raw.githubusercontent.com/pokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+            "hp": 100,
+            "pp": 10,
+            "moves": [
+                {
+                    "name": "Vine Whip",
+                    "damage": 15,
+                    "pp": 2
+                },
+                {
+                    "name": "Tackle",
+                    "damage": 10,
+                    "pp": 1
+                },
+                {
+                    "name": "Rest",
+                    "damage": 0,
+                    "pp": -3
+                }
+            ]
+        }
+    }
+}
