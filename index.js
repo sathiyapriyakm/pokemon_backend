@@ -39,11 +39,12 @@ server.listen(PORT,async ()=>{
     collections.pokemon=mongoClient.db("game").collection("pokemon");
     collections.battles=mongoClient.db("game").collection("battle");
     changeBattles=collections.battles.watch([
-      {
+      { 
         "$match":{
           "operationType":"update"
         }
       }
+      
     ],{"fullDocument": "updateLookup"})
     console.log("listerning at *::",PORT)
   }catch(er){
